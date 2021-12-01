@@ -1,4 +1,5 @@
 # ignore everything in the root except the "wp-content" directory.
+/*
 !wp-content/
 
 # ignore everything in the "wp-content" directory, except:
@@ -7,6 +8,7 @@ wp-content/*
 !wp-content/mu-plugins/
 !wp-content/plugins/
 !wp-content/themes/
+!wp-content/index.php
 
 # ignore these plugins
 wp-content/plugins/hello.php
