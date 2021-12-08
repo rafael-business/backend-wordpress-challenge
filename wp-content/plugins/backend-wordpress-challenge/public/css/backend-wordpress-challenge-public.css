@@ -1,0 +1,55 @@
+/**
+ * Todo o CSS do lado público do plugin.
+ */
+
+form.insc {
+    display: flex;
+}
+form.insc .column {
+    flex: 1;
+    padding-right: 10px;
+}
+form.insc label {
+    display: block;
+    font-weight: 600;
+}
+form.insc input[type=text],
+form.insc input[type=email] {
+    width: 100%;
+}
+form.insc input[type=submit] {
+    margin-top: 28px;
+}
+form.insc #loading {
+    display: none;
+    vertical-align: bottom;
+}
+
+#msg_status {
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+    margin: 16px 0 32px;
+}
+
+#msg_status.success {
+    background-color: green;
+    padding: 8px 16px;
+}
+
+#msg_status.fail {
+    background-color: gray;
+    padding: 8px 16px;
+}
+
+#msg_status.error {
+    background-color: red;
+    padding: 8px 16px;
+}
+
+a.confira {
+    text-decoration: none !important;
+    margin: 32px auto !important;
+    display: inline-block;
+}
