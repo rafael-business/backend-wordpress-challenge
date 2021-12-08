@@ -1,0 +1,19 @@
+/**
+ * Todo o CSS da área de admin
+ */
+
+.bwc_field {
+    display: block;
+}
+.bwc_field label {
+    font-weight: 600;
+}
+.bwc_field input {
+    width: 100%;
+}
+
+.interessados {
+    width: 100%;
+    text-align: left;
+    margin-top: 10px;
+}
